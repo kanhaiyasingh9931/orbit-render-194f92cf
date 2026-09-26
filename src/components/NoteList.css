@@ -1,0 +1,39 @@
+/* Placeholder CSS for NoteList component */
+.note-list-container {
+  padding: 1rem;
+}
+
+.note-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-list-title {
+  margin: 0;
+}
+
+.note-list-add-btn {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.note-list-search {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.note-list-search input {
+  flex: 1;
+  padding: 0.4rem;
+}
+
+.note-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
